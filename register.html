@@ -270,13 +270,25 @@
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                 <div class="form-group">
                                     <label class="control-label" for="Gender">Gender</label>
-                                    <input type="radio" name="gender" value="male"> Male
-                                    <input type="radio" name="gender" value="female"> Female
-
-
+                                    <div class="custom-select">
+                                        <select id="country" class='select2'>
+                                            <option value="0">Select your Gender</option>
+                                            <option value="1">Male</option>
+                                            <option value="2">Female</option>
+                                            
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
-                            
+                           
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                <div class="form-group">
+                                    <label class="control-label">Address</label>
+                                    <textarea name="about-me" type="text" id="address-line1" class="form-control" rows="5"></textarea>
+                                </div>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -295,43 +307,19 @@
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                 <div class="form-group">
-                                    <label class="control-label" for="Gender">Gender</label>
-                                    <div class="custom-select">
-                                        <select id="country" class='select2'>
-                                            <option value="0">Select your country</option>
-                                            <option value="1">Bangladesh</option>
-                                            <option value="2">Spain</option>
-                                            <option value="3">Belgium</option>
-                                            <option value="3">Ecuador</option>
-                                            <option value="3">Ghana</option>
-                                            <option value="3">South Africa</option>
-                                            <option value="3">India</option>
-                                            <option value="3">Pakistan</option>
-                                            <option value="3">Thailand</option>
-                                            <option value="3">Malaysia</option>
-                                            <option value="3">Italy</option>
-                                            <option value="3">Japan</option>
-                                            <option value="4">Germany</option>
-                                            <option value="5">USA</option>
-                                        </select>
-                                    </div>
+                                    <label class="control-label" for="first-name">Parent Name *</label>
+                                    <input type="text" id="first-name" class="form-control">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                 <div class="form-group">
-                                    <label class="control-label" for="town-city">Town / City</label>
-                                    <input type="text" id="town-city" class="form-control">
+                                    <label class="control-label" for="last-name">Parent Contact number *</label>
+                                    <input type="integer" id="last-name" class="form-control">
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                <div class="form-group">
-                                    <label class="control-label">About Me</label>
-                                    <textarea name="about-me" type="text" id="address-line1" class="form-control" rows="5"></textarea>
-                                </div>
-                            </div>
-                        </div>
+                        
+                        
                         <div class="row">
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                 <div class="pLace-order mt-30">
